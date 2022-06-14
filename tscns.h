@@ -25,6 +25,8 @@ SOFTWARE.
 #pragma once
 #include <time.h>
 
+namespace tscns {
+
 class TSCNS
 {
 public:
@@ -105,3 +107,4 @@ public:
   int64_t base_tsc = 0;
   int64_t base_ns = 0;
 };
+}
