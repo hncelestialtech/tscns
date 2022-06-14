@@ -31,6 +31,8 @@ SOFTWARE.
 #include <intrin.h>
 #endif
 
+namespace tscns {
+
 class TSCNS
 {
 public:
@@ -151,3 +153,4 @@ public:
   int64_t base_ns_err_;
   int64_t next_calibrate_tsc_;
 };
+}
